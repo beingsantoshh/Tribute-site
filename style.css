@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    border: 10px solid burlywood;
+    display: block;
+    background-color: #FFF3FF;
+    background-image: url(white.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+.image { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+
+.image img {
+    border: 2px solid black;
+}
+
+.title-name {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+.title-name h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.one {
+    color: orange;
+    padding-right: 20px;
+
+}
+
+.two {
+    color: rgb(250, 255, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-right: 20px;
+
+}
+
+.three {
+    color: darkblue;
+    padding-right: 10px;
+
+}
+
+.four { 
+    color: green;
+}
+
+section {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 650;
+    color: black;
+    margin-left: 150px;
+    margin-right: 130px;
+    
+}
+
+ul {
+    text-align: left;
+    margin-left: 90px;
+}
+
+header h4 {
+
+    letter-spacing: 0px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.end { 
+    font-size: 12px; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+
